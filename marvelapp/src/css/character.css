@@ -1,0 +1,47 @@
+.marvel-logo {
+  width: 100%;
+}
+
+.character-container {
+  background-color: #4b4b4b;
+  min-width: 10%;
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  }
+
+.charthumb-container {
+  padding-top: 8px;
+}
+
+.character-thumbnail {
+  border-radius: 100%;
+}
+
+.character-box {
+  background-color: #4b4b4b;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  padding-top: 10px;
+  
+}
+
+.character-thumbnail:hover {
+  box-shadow: 4px 7px 19px 0px rgba(0, 0, 0, 0.75);
+  transition: 0.5s ease;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #373737;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  padding-top: 10px;
+  transition: 0.5s ease;
+}

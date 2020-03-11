@@ -1,0 +1,15 @@
+.description-container {
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.description-box p {
+  font-size: 16px;
+}
+
+.description-box img {
+  float: left;
+  margin-right: 20px;
+}
